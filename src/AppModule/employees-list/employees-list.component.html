@@ -1,1 +1,5 @@
-<app-employee *ngFor="let employee of employees" [employee]="employee"></app-employee>
+<h2>Employees List</h2>
+<div id="employees-search">
+    <input (input)="search(searchbar.value)" #searchbar>
+</div>
+<app-employee *ngFor="let employee of currentEmployees" [employee]="employee"></app-employee>
