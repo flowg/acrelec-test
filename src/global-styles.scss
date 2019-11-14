@@ -1,0 +1,26 @@
+/*
+ * Root stylesheet for app-level styles
+ */
+// Imports
+@import "main";
+@import "fonts";
+
+// App-level styling
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: $font-body-text;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
