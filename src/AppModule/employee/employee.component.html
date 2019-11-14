@@ -1,1 +1,10 @@
-<p>employee works!</p>
+<div class="employee-pic"></div>
+<div class="employee-text">
+    <p class="employee-name">{{employee.FirstName}} {{employee.SecondName}}</p>
+    <p class="employee-position">{{employee.Position}}</p>
+</div>
+<div class="employee-actions">
+    <i class="delete"></i>
+    <i class="edit" [class.disabled]="employee.Blocked"></i>
+</div>
+

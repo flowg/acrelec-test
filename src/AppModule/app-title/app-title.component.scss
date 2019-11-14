@@ -1,0 +1,12 @@
+// Imports
+@import "main";
+
+// Styling
+header {
+  background: darkseagreen;
+  padding: 8px;
+
+  h1 {
+    font-family: $font-ui;
+  }
+}
